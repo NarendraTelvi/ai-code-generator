@@ -5,6 +5,13 @@ from dotenv import load_dotenv
 
 from prompts import SYSTEM_PROMPT
 
+import streamlit as st
+from groq import Groq
+
+client = Groq(
+    api_key=st.secrets["GROQ_API_KEY"]
+)
+
 load_dotenv()
 
 client = Groq(
