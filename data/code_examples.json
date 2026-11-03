@@ -1,0 +1,34 @@
+[
+    {
+        "requirement": "Read CSV file",
+        "code": "import pandas as pd\n\ndf = pd.read_csv('file.csv')"
+    },
+    {
+        "requirement": "Write CSV file",
+        "code": "df.to_csv('output.csv', index=False)"
+    },
+    {
+        "requirement": "Create Flask API",
+        "code": "from flask import Flask\napp = Flask(__name__)"
+    },
+    {
+        "requirement": "Make HTTP request",
+        "code": "import requests\nresponse=requests.get(url)"
+    },
+    {
+        "requirement": "Connect MySQL Database",
+        "code": "import mysql.connector"
+    },
+    {
+        "requirement": "Create FastAPI API",
+        "code": "from fastapi import FastAPI\napp=FastAPI()"
+    },
+    {
+        "requirement": "Read Excel file",
+        "code": "import pandas as pd\ndf=pd.read_excel('file.xlsx')"
+    },
+    {
+        "requirement": "Send Email Python",
+        "code": "import smtplib"
+    }
+]
